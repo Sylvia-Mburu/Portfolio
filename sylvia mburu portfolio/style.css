@@ -1,0 +1,205 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;/* Sets your chosen font across the website */
+    }
+#education{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    body {
+      background-color:rgb(109, 146, 146);
+      color:#0d1117;
+      line-height: 1.6; /* it gives spaces between lines*/
+    }
+
+    header {
+      background: #0d1117;
+      color: #fff;
+      padding: 1rem 2rem;
+      position: sticky;/*it makes the header stay at the top while scrolling*/
+      top: 0;
+      z-index: 10;/*it ensures that the header stays on top of other elements*/
+    }
+    .about-text{
+        width:500px;
+
+    }
+.about-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap-reverse;
+}
+.sylvia{
+    width:450px;
+    aspect-ratio:1;
+    border-radius: 50px;
+}
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items:flex-end;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav ul li {
+      list-style: none;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #58a6ff;
+    }
+
+    .hero {
+      background: #385c90;
+      color: #fbf6f6;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      margin: 1rem 0;
+    }
+
+    .btn {
+      background: #58a6ff;
+      color: #fff;
+      padding: 0.7rem 1.5rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #1f78d1;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 40px;
+      margin-bottom: 40px;
+    }
+
+    .about, .skills, .projects, .interests, .languages, .contact {
+      background: #fff;
+      margin-bottom: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #0d1117;
+    }
+
+    .icons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .icons img {
+      width: 50px;
+      height: 50px;
+      transition:transform 0.3s;
+    }
+
+    .icons img:hover {
+      transform: scale(1.2);
+    }
+
+    .project {
+      margin-bottom: 1rem;
+    }
+
+    .project a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    .contact {
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+ul{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+ul li{
+list-style: none;
+}
+
+ul li a{
+text-decoration: none;
+}
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+      margin: auto;
+
+    }
+
+    form input, form textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    form button {
+      background: #0d1117;
+      color: #fff;
+      padding: 0.7rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    form button:hover {
+      background: #333;
+    }
+
+    footer {
+      background: #0d1117;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+
+      .hero h2 {
+        font-size: 2rem;
+      }
